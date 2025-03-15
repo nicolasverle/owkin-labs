@@ -1,0 +1,4 @@
+# Set any custom config here...
+singleuser:
+  extraEnv:
+    PIP_INDEX_URL: "http://nexus.nexus.svc.cluster.local:8081/repository/pypi/simple/"
